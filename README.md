@@ -3,7 +3,7 @@
 
 ## Introduction
 
-LB-R2R-Calib-2.0 is a new algorithm to calibrate long baseline multi-radars.
+LB-R2R-Calib-2.0 is a new algorithm to calibrate long baseline multi-radars. Different from our previous work *offline* calibration LB-R2R-Calib [1], this 2.0 version is an *online* calibration method. 
 
 ## Motivation
 Deploying multiple 4D radars on the roadside provides significant advantages for Vehicle-to-Everything (V2X) by enabling all-weather perception. 4D radar, with its unique advantages, such as all-weather perception, long-range sensing, direct doppler velocity measurement and low cost, offers irreplaceable benefits. Extrinsic calibration of multiple 4D radars mounted on the roadside with long baseline is crucial for fusing radar data into a unified coordinate system, which plays a key role in expanding the field-of-view (FOV) and improving perception coverage.
@@ -95,7 +95,12 @@ The fifth and sixth columns present the top and side views of the registered mov
 <div align="center">
 
 
+
 ### DBSCAN vs. V-DBSCAN
 
 <img src="./fig/highway_DBSCAN_VDBSCAN_nolines.gif" alt="V-DBSCAN" height="300"> 
 </div>
+
+
+
+[1] J. Zhang et al., "LB-R2R-Calib: Accurate and Robust Extrinsic Calibration of Multiple Long Baseline 4D Imaging Radars for V2X," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024
